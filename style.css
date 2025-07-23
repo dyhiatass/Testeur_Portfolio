@@ -36,7 +36,7 @@ body {
 .bgimage {
   height: 100vh;
   max-height: 900px;
-  background: url("images/hero.webp");
+  background: url("https://res.cloudinary.com/dwt9fgeql/image/upload/v1753290414/hero_dlbbws.webp");
   background-size: cover;
   background-position: bottom;
 }
