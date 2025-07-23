@@ -1,12 +1,24 @@
 // Function to add the "navbarDark" class to the navbar on scroll
 function handleNavbarScroll() {
     const header = document.querySelector(".navbar");
+    const items = document.querySelectorAll(".nav-link");
+    const nom = document.querySelector(".navbar-brand");
     window.onscroll = function () {
         const top = window.scrollY;
         if (top >= 100) {
             header.classList.add("navbarDark");
+            nom.classList.add("nom-color");
+            items.forEach((item) => {
+                item.classList.add("text-color");
+            })
+            
         } else {
             header.classList.remove("navbarDark");
+            items.forEach((item) => {
+                item.classList.remove("text-color");
+                
+            })
+            nom.classList.remove("nom-color");
         }
     };
 }
@@ -87,7 +99,7 @@ function createPortfolioFromJSON() {
                 `;
 
                 // Append the card to the current row
-                row.apendChild(card);
+                row.appendChild(card);
 
                 // If the index is a multiple of 3 or it's the last element, create a new row
                 if ((index + 1) % 3 === 0 || index === data.length - 1) {

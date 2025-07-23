@@ -4,98 +4,135 @@
 #skills,
 #portfolio,
 #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
+  margin-top: 4rem;
+  padding-top: 4rem;
 }
 #about h2,
 #skills h2,
 #portfolio h2,
 #contact h2 {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
+  color: #9b637b;
 }
 #contact {
-    padding-bottom: 4rem;
+  padding-bottom: 4rem;
+}
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: #5b5b5b;
+  background-color: white;
 }
-
+.navbar .nav-link {
+  color: white !important;
+}
+.navbar .text-color {
+  color: #9b637b !important;
+}
 /* hero background image */
 .bgimage {
-    height: 100vh;
-    max-height: 900px;
-    background: url("images/image1.jpg");
-    background-size: cover;
-    position: relative;
+  height: 100vh;
+  max-height: 900px;
+  background: url("images/hero.webp");
+  background-size: cover;
+  background-position: bottom;
+}
+.bgimage::after {
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgba(255, 233, 198, 0.3); */
 }
 /* text css above hero image*/
 .hero_title {
-    font-size: 4.5rem;
+  font-size: 4.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
 .hero_desc {
-    font-size: 2rem;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero_desc_span {
+  color: #d6bcce;
 }
 .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+    z-index: 2;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.navbar-brand {
+  z-index: 2;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.nom-color {
+  color: #9b637b !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* about */
 .imageAboutPage {
-    width: 100%;
+  width: 100%;
 }
 .imageAboutPage {
-    border-radius: 50%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 /* skills */
 .skillsText.card {
-    height: 350px;
-    cursor: pointer;
+  height: 350px;
+  cursor: pointer;
 }
 .skillsText img {
-    width: 100%;
-    height: 150px;
-    object-fit: contain;
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
 }
 #skills p {
-    text-align: center;
+  text-align: center;
 }
 .skillsIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
 }
 .card-title {
-    text-align: center;
+  text-align: center;
 }
 .card:hover .skillsIcon {
-    color: #008000;
+  color: #008000;
 }
 .skillsText:hover {
-    border: 1px solid #008000;
+  border: 1px solid #008000;
 }
 
 /* portfolio */
 #portfolio p {
-    text-align: center;
+  text-align: center;
 }
 
 /* contact */
 .contactColumn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .contactColumn i {
-    color: #198754;
+  color: #198754;
 }
 
 /* footer */
