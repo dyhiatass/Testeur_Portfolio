@@ -116,13 +116,26 @@ ul li span {
 
 }
 /* skills */
+/* #skills{
+    border: 1px solid #9b637b;
+} */
+#skills .container{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+#skills .container .card-body .card-text{
+   color: #4d4d4d;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
 .skillsText.card {
   height: 350px;
   cursor: pointer;
 }
 .skillsText img {
   width: 100%;
-  height: 150px;
+  height: 140px;
   object-fit: contain;
 }
 #skills p {

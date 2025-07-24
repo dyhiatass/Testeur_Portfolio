@@ -11,14 +11,13 @@ function handleNavbarScroll() {
             items.forEach((item) => {
                 item.classList.add("text-color");
             })
-            
         } else {
-            header.classList.remove("navbarDark");
             items.forEach((item) => {
                 item.classList.remove("text-color");
-                
             })
+            header.classList.remove("navbarDark");
             nom.classList.remove("nom-color");
+        
         }
     };
 }
@@ -45,15 +44,16 @@ function createSkillsFromJSON() {
     fetch("data/skills.json")
         .then((response) => response.json())
         .then((data) => {
+            
             // Iterate through the JSON data and create HTML elements
             data.forEach((item, index) => {
                 const card = document.createElement("div");
-                card.classList.add("col-lg-4", "mt-4");
+                card.classList.add("col-lg-3", "mt-3");
                 card.innerHTML = `
                     <div class="card skillsText">
                         <div class="card-body">
                             <img src="./images/${item.image}" />
-                            <h4 class="card-title mt-3">${item.title}</h4>
+                            <h5 class="card-title mt-3">${item.title}</h5>
                             <p class="card-text mt-3">${item.text}</p>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ function createSkillsFromJSON() {
                 row.appendChild(card);
 
                 // If the index is a multiple of 3 or it's the last element, create a new row
-                if ((index + 1) % 3 === 0 || index === data.length - 1) {
+                if ((index + 1) % 4 === 0 || index === data.length - 1) {
                     container.appendChild(row);
                     row = document.createElement("div");
                     row.classList.add("row");
@@ -71,6 +71,39 @@ function createSkillsFromJSON() {
             });
         });
 }
+
+function createToolsFromJSON() {
+    const container = document.querySelector("#tools .container");
+    let row = document.createElement("div");
+    row.classList.add("row");
+
+    fetch("data/tools.json")
+        .then((response) => response.json())
+        .then((data) => {
+            data.forEach((item, index) => {
+                const card = document.createElement("div");
+                card.classList.add("col-lg-3", "mt-3");
+                card.innerHTML = `
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <img src="./images/${item.image}" />
+                            <h5 class="card-title mt-3">${item.title}</h5>
+                            <p class="card-text mt-3">${item.text}</p>
+                        </div>
+                    </div>
+                `;
+
+                row.appendChild(card);
+
+                if ((index + 1) % 4 === 0 || index === data.length - 1) {
+                    container.appendChild(row);
+                    row = document.createElement("div");
+                    row.classList.add("row");
+                }
+            });
+        });
+}
+
 // Function to dynamically create HTML elements from the JSON file
 function createPortfolioFromJSON() {
     const container = document.querySelector("#portfolio .container");
@@ -115,4 +148,5 @@ function createPortfolioFromJSON() {
 handleNavbarScroll();
 handleNavbarCollapse();
 createSkillsFromJSON();
+createToolsFromJSON();
 createPortfolioFromJSON();

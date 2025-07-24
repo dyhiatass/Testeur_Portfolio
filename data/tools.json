@@ -1,0 +1,27 @@
+[
+  {
+    "image": "OIP.webp",
+    "title": "Cypress",
+    "text": "Automatisation de tests end-to-end et API, utilisation de fixtures, assertions, reporting de tests et exécution dans Docker"
+  },
+  {
+    "image": "826748.png",
+    "title": "Docker",
+    "text": "Configuration d’environnements de développement isolés, exécution de projets et de suites de tests automatisés en conteneurs"
+  },
+  {
+    "image": "jira.png",
+    "title": "Jira",
+    "text": "Suivi des anomalies, gestion des tickets, collaboration agile via des boards Scrum ou Kanban"
+  },
+  {
+    "image": "github-desktop.png",
+    "title": "GitHub Desktop",
+    "text": "Gestion de versions avec Git en interface graphique, synchronisation avec des dépôts GitHub, suivi des modifications"
+  },
+  {
+    "image": "postman.png",
+    "title": "Postman",
+    "text": "Test d’API manuels ou automatisés, gestion des environnements, collections et génération de documentation"
+  }
+]

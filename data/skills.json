@@ -4,16 +4,26 @@
         "title": "HTML - CSS",
         "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
     },
+{
+  "image": ["Image 24-07-2025 à 15.07.jpg"],
+  "title": "javascript - React",
+  "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires. Création d’applications React, création de composants et manipulation de leur état."
+},
     {
-        "image": "js.jpg",
-        "title": "javascript",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
-    },
-    {
-        "image": "react.jpg",
-        "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état"
-    },
+    "image": "image.png",
+    "title": "Java",
+    "text": "Programmation orientée objet, développement d’applications backend, bonnes pratiques d’architecture logicielle"
+  },
+  {
+    "image": "nodejs.jpg",
+    "title": "Node.js",
+    "text": "Création d’API REST, gestion des routes avec Express.js, intégration de bases de données NoSQL comme MongoDB"
+  },
+  {
+    "image": "Image 24-07-2025 à 14.16.jpg",
+    "title": "PHP - Symfony",
+    "text": "Développement backend avec Symfony, création d’API REST, utilisation de Doctrine pour la gestion des données"
+  },
     {
         "image": "gestion-de-projet.png",
         "title": "Gestion de projet",
@@ -27,6 +37,7 @@
     {
         "image": "test.png",
         "title": "Test",
-        "title ": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
+        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
     }
+    
 ]
