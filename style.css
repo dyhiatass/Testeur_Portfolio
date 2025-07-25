@@ -251,6 +251,17 @@ ul li span {
 #portfolio p {
   text-align: center;
 }
+#portfolio .col-lg-4 .portfolioContent .card-img-top{
+  width: 100%;
+  height: 300px;
+}
+#portfolio .col-lg-4 .portfolioContent .card-img-top img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position:top;
+}
+  
 
 /* contact */
 .contactColumn {
