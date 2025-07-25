@@ -74,35 +74,28 @@ function createSkillsFromJSON() {
 
 function createToolsFromJSON() {
     const container = document.querySelector("#tools .container");
-    let row = document.createElement("div");
-    row.classList.add("row");
+
+    // Ajoute une classe Flexbox au conteneur pour la grille
+    container.classList.add("tools-grid");
 
     fetch("data/tools.json")
         .then((response) => response.json())
         .then((data) => {
-            data.forEach((item, index) => {
+            data.forEach((item) => {
                 const card = document.createElement("div");
-                card.classList.add("col-lg-3", "mt-3");
+                card.classList.add("tool-card");
+
                 card.innerHTML = `
-                    <div class="card skillsText">
-                        <div class="card-body">
-                            <img src="./images/${item.image}" />
-                            <h5 class="card-title mt-3">${item.title}</h5>
-                            <p class="card-text mt-3">${item.text}</p>
-                        </div>
+                    <div class="card-image">
+                    <img src="./images/${item.image}" alt="${item.title}" />
                     </div>
                 `;
 
-                row.appendChild(card);
-
-                if ((index + 1) % 4 === 0 || index === data.length - 1) {
-                    container.appendChild(row);
-                    row = document.createElement("div");
-                    row.classList.add("row");
-                }
+                container.appendChild(card);
             });
         });
 }
+
 
 // Function to dynamically create HTML elements from the JSON file
 function createPortfolioFromJSON() {
