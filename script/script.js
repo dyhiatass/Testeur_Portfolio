@@ -99,45 +99,76 @@ function createToolsFromJSON() {
 
 // Function to dynamically create HTML elements from the JSON file
 function createPortfolioFromJSON() {
-    const container = document.querySelector("#portfolio .container");
-    let row = document.createElement("div");
-    row.classList.add("row");
+  const container = document.querySelector("#portfolio .container");
+  const dotsContainer = document.getElementById("portfolioDots");
+  let portfolio_grid = document.createElement("div");
+  portfolio_grid.classList.add("portfolio_grid");
 
-    // Load the JSON file
-    fetch("data/portfolio.json")
-        .then((response) => response.json())
-        .then((data) => {
-            // Iterate through the JSON data and create HTML elements
-            data.forEach((item, index) => {
-                const card = document.createElement("div");
-                card.classList.add("col-lg-4", "mt-4");
-                card.innerHTML = `
-                    <div class="card portfolioContent">
-                    <div class="card-img-top">
-                    <img  src="images/${item.image}" ></div>
-                    
-                    <div class="card-body">
-                        <h4 class="card-title">${item.title}</h4>
-                        <p class="card-text">${item.text}</p>
-                        <div class="text-center">
-                            <a href="${item.link}">Lien</a>
-                        </div>
-                    </div>
-                </div>
-                `;
+  const projectsPerView = 3;
 
-                // Append the card to the current row
-                row.appendChild(card);
+  fetch("data/portfolio.json")
+    .then((response) => response.json())
+    .then((data) => {
+      // Création des cartes projets
+      data.forEach((item) => {
+        const card = document.createElement("div");
+        card.classList.add("portfolio_card");
 
-                // If the index is a multiple of 3 or it's the last element, create a new row
-                if ((index + 1) % 3 === 0 || index === data.length - 1) {
-                    container.appendChild(row);
-                    row = document.createElement("div");
-                    row.classList.add("row");
-                }
-            });
+        card.innerHTML = `
+          <div class="card portfolioContent">
+            <div class="card-img-top">
+              <img src="images/${item.image}" alt="${item.title}">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">${item.title}</h4>
+              <p class="card-text">${item.text}</p>
+              <div class="text-center">
+                <a href="${item.link}" target="_blank">Lien</a>
+              </div>
+            </div>
+          </div>
+        `;
+        portfolio_grid.appendChild(card);
+      });
+
+      container.appendChild(portfolio_grid);
+
+      const totalProjects = data.length;
+      const maxStartIndex = totalProjects - projectsPerView + 1;
+
+      // Fonction pour afficher une "fenêtre" de projets
+      function showProjects(startIndex) {
+        const cards = portfolio_grid.querySelectorAll(".portfolio_card");
+        cards.forEach((card, i) => {
+          if (i >= startIndex && i < startIndex + projectsPerView) {
+            card.style.display = "block";
+          } else {
+            card.style.display = "none";
+          }
         });
+      }
+
+      // Affiche les 3 premiers projets par défaut
+      showProjects(0);
+
+      // Crée les points (1 point par déplacement d’un projet)
+      for (let i = 0; i < maxStartIndex; i++) {
+        const dot = document.createElement("span");
+        dot.className = i === 0 ? "dot active" : "dot";
+        dotsContainer.appendChild(dot);
+
+        dot.onclick = () => {
+          showProjects(i);
+
+          // Met à jour les classes actives
+          dotsContainer.querySelectorAll(".dot").forEach(d => d.classList.remove("active"));
+          dot.classList.add("active");
+        };
+      }
+    });
 }
+
+
 
 // Call the functions to execute the code
 handleNavbarScroll();

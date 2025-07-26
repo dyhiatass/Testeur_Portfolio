@@ -4,7 +4,6 @@
 #skills,
 #portfolio,
 #contact {
-  margin-top: 0rem;
   margin-bottom: 2rem;
   padding-top: 5rem;
   padding-bottom: 1rem;
@@ -51,7 +50,7 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.2);
   /* background-color: rgba(255, 233, 198, 0.3); */
 }
 /* text css above hero image*/
@@ -162,6 +161,7 @@ ul li span {
 
 /* Outils */
 #tools {
+   
     margin-top: 6rem;
   background: url("images/56534fe68f651e2c9f4f83ff71ed83fd.jpg");
   position: relative;
@@ -248,29 +248,111 @@ ul li span {
 }
 
 /* portfolio */
-#portfolio p {
-  text-align: center;
+#portfolio {
+ margin-top: 2rem;
+  /* border: 1px solid #9b637b; */
+  margin-bottom: 1rem;
 }
-#portfolio .col-lg-4 .portfolioContent .card-img-top{
+
+#portfolio .container {
+  /* border: 1px solid red; */
+  margin-bottom: 2rem;
   width: 100%;
-  height: 300px;
 }
-#portfolio .col-lg-4 .portfolioContent .card-img-top img{
+
+.portfolio_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* responsive grid */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.portfolio_card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.card-img-top img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position:top;
+  object-position: top;
 }
+
+.card-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#portfolio p {
+  text-align: center;
+}
+.dots-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
   
 
 /* contact */
-.contactColumn {
+#contact {
+  padding: 1rem 0;
+}
+#contact .container .row {
+  padding: 1rem;              
+  height: auto; 
+  padding: 0;              
+  margin: 0;
+             
+}
+.contactColumn{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  align-items:stretch;
+  text-align: center;
 }
 .contactColumn i {
+  font-size: 2.5rem;         
   color: #9b637b;
+  margin-bottom: 0.5rem;
+}
+.contactColumn a{
+  text-decoration: none;
+  color: black;
+}
+.contactColumn a:hover {
+  color: black; 
+}
+.contactColumn h4 {
+  font-size: 1.2rem;           
+  margin: 0.3rem 0;
+}
+.contactColumn p {
+  font-size: 0.9rem;
+  margin: 0;
 }
 
 /* footer */
