@@ -290,8 +290,23 @@ ul li span {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
-
+.card_btn {
+  background:  #9b637b;
+  border: 1px solid  #9b637b;
+  width: 5vw;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.card_btn a {
+  text-decoration: none;
+  color:white;
+  font-size: 1rem;
+}
 #portfolio p {
   text-align: center;
 }
@@ -309,7 +324,18 @@ ul li span {
   display: inline-block;
   cursor: pointer;
 }
-
+.arrow-with-dots i{
+  color: #9b637b; 
+  font-size: 1.6rem;
+}
+.arrow-with-dots .dot{
+  display: inline-block;
+  width: 8px;       
+  height: 8px;      
+  border-radius: 50%;
+  background-color: #bbb;  
+  margin: 0 4px;    
+}
 .dot.active {
   background-color: #333;
 }
