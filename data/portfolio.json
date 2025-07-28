@@ -1,18 +1,18 @@
 [
     {
-        "image": "projet1_image.jpeg",
+        "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687272/projet1_image_dkpeqn.jpg",
         "title": "JSE Avocats",
         "text": "Tests fonctionnels et exploratoires d’un site WordPress pour un cabinet d’avocats. Mise en place de l’environnement via Docker, exécution des cas de test depuis un cahier de recette Notion, identification et documentation des anomalies pour améliorer la qualité du site.",
         "link": "#"
     },
     {
-        "image": "projet2_image.jpeg",
+        "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687275/projet2_image_vpgfjj.jpg",
         "title": "724events",
         "text": "Campagne de tests complète sur un site événementiel. Réalisation de tests fonctionnels à partir d’un cahier de recette, tests exploratoires, rédaction et gestion des tickets sur Jira. Mise en place d'une étude d'automatisation, création de tests automatisés, génération d’un rapport de campagne.",
         "link": "#"
     },
     {
-        "image": "projet3_image.jpeg",
+        "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687276/projet3_image_hrq3rr.jpg",
         "title": "PayForge - TOMSEN",
         "text": "Conception d’une stratégie de tests complète pour un site: revue des exigences, rédaction des cas de tests alignés aux sprints, définition des méthodes de test, planification des ressources et environnements. Élaboration des étapes clés de la stratégie et création d’un diagramme de Gantt basé sur les abaques.",
         "link": "#"

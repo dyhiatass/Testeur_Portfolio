@@ -1,103 +1,95 @@
-// Function to add the "navbarDark" class to the navbar on scroll
+// Fonction pour ajouter la classe "navbarDark" à la navbar lors du scroll
 function handleNavbarScroll() {
-    const header = document.querySelector(".navbar");
-    const items = document.querySelectorAll(".nav-link");
-    const nom = document.querySelector(".navbar-brand");
-    window.onscroll = function () {
-        const top = window.scrollY;
-        if (top >= 100) {
-            header.classList.add("navbarDark");
-            nom.classList.add("nom-color");
-            items.forEach((item) => {
-                item.classList.add("text-color");
-            })
-        } else {
-            items.forEach((item) => {
-                item.classList.remove("text-color");
-            })
-            header.classList.remove("navbarDark");
-            nom.classList.remove("nom-color");
-        
-        }
-    };
+  const header = document.querySelector(".navbar");
+  const items = document.querySelectorAll(".nav-link");
+  const nom = document.querySelector(".navbar-brand");
+  window.onscroll = function () {
+    const top = window.scrollY;
+    if (top >= 100) {
+      header.classList.add("navbarDark");
+      nom.classList.add("nom-color");
+      items.forEach((item) => {
+        item.classList.add("text-color");
+      })
+    } else {
+      items.forEach((item) => {
+        item.classList.remove("text-color");
+      })
+      header.classList.remove("navbarDark");
+      nom.classList.remove("nom-color");
+
+    }
+  };
 }
 
-// Function to handle navbar collapse on small devices after a click
+// Fonction pour fermer le menu burger (collapse) lorsqu'on clique sur un lien du menu sur petit écran
 function handleNavbarCollapse() {
-    const navLinks = document.querySelectorAll(".nav-item");
-    const menuToggle = document.getElementById("navbarSupportedContent");
+  const navLinks = document.querySelectorAll(".nav-item");
+  const menuToggle = document.getElementById("navbarSupportedContent");
 
-    navLinks.forEach((link) => {
-        link.addEventListener("click", () => {
-            new bootstrap.Collapse(menuToggle).toggle();
-        });
+  navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      new bootstrap.Collapse(menuToggle).toggle();
     });
+  });
 }
 
-// Function to dynamically create HTML elements from the JSON file
+// Fonction pour créer dynamiquement les compétences à partir du fichier JSON
 function createSkillsFromJSON() {
-    const container = document.querySelector("#skills .container");
-    let row = document.createElement("div");
-    row.classList.add("row");
+  const container = document.querySelector("#skills .container");
+  let row = document.createElement("div");
+  row.classList.add("row");
 
-    // Load the JSON file
-    fetch("data/skills.json")
-        .then((response) => response.json())
-        .then((data) => {
-            
-            // Iterate through the JSON data and create HTML elements
-            data.forEach((item, index) => {
-                const card = document.createElement("div");
-                card.classList.add("col-lg-3", "mt-3");
-                card.innerHTML = `
+  fetch("data/skills.json")
+    .then((response) => response.json())
+    .then((data) => {
+      data.forEach((item, index) => {
+        const card = document.createElement("div");
+        card.classList.add("col-lg-3", "mt-3");
+        card.innerHTML = `
                     <div class="card skillsText">
                         <div class="card-body">
-                            <img src="./images/${item.image}" />
+                            <img src="${item.image}" />
                             <h5 class="card-title mt-3">${item.title}</h5>
                             <p class="card-text mt-3">${item.text}</p>
                         </div>
                     </div>
                 `;
-
-                // Append the card to the current row
-                row.appendChild(card);
-
-                // If the index is a multiple of 3 or it's the last element, create a new row
-                if ((index + 1) % 4 === 0 || index === data.length - 1) {
-                    container.appendChild(row);
-                    row = document.createElement("div");
-                    row.classList.add("row");
-                }
-            });
-        });
+        row.appendChild(card);
+        if ((index + 1) % 4 === 0 || index === data.length - 1) {
+          container.appendChild(row);
+          row = document.createElement("div");
+          row.classList.add("row");
+        }
+      });
+    });
 }
 
+// Fonction pour créer dynamiquement les outils à partir du fichier JSON
 function createToolsFromJSON() {
-    const container = document.querySelector("#tools .container");
+  const container = document.querySelector("#tools .container");
+  container.classList.add("tools-grid");
 
-    // Ajoute une classe Flexbox au conteneur pour la grille
-    container.classList.add("tools-grid");
+  fetch("data/tools.json")
+    .then((response) => response.json())
+    .then((data) => {
+      data.forEach((item) => {
+        const card = document.createElement("div");
+        card.classList.add("tool-card");
 
-    fetch("data/tools.json")
-        .then((response) => response.json())
-        .then((data) => {
-            data.forEach((item) => {
-                const card = document.createElement("div");
-                card.classList.add("tool-card");
-
-                card.innerHTML = `
+        card.innerHTML = `
                     <div class="card-image">
-                    <img src="./images/${item.image}" alt="${item.title}" />
+                    <img src="${item.image}" alt="${item.title}" />
                     </div>
                 `;
 
-                container.appendChild(card);
-            });
-        });
+        container.appendChild(card);
+      });
+    });
 }
 
 
-// Function to dynamically create HTML elements from the JSON file
+// Fonction pour créer dynamiquement les projets depuis le fichier JSON
 function createPortfolioFromJSON() {
   const container = document.querySelector("#portfolio .container");
   const dotsContainer = document.getElementById("portfolioDots");
@@ -109,7 +101,6 @@ function createPortfolioFromJSON() {
   fetch("data/portfolio.json")
     .then((response) => response.json())
     .then((data) => {
-      // Création des cartes projets
       data.forEach((item) => {
         const card = document.createElement("div");
         card.classList.add("portfolio_card");
@@ -117,7 +108,7 @@ function createPortfolioFromJSON() {
         card.innerHTML = `
           <div class="card portfolioContent">
             <div class="card-img-top">
-              <img src="images/${item.image}" alt="${item.title}">
+              <img src="${item.image}" alt="${item.title}">
             </div>
             <div class="card-body">
               <h4 class="card-title">${item.title}</h4>
@@ -170,7 +161,7 @@ function createPortfolioFromJSON() {
 
 
 
-// Call the functions to execute the code
+// Appel des fonctions pour exécuter le code au chargement
 handleNavbarScroll();
 handleNavbarCollapse();
 createSkillsFromJSON();

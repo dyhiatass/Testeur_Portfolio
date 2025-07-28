@@ -1,23 +1,23 @@
 [
   {
-    "image": "OIP.webp",
+    "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687259/cypress_q2s2es.webp",
     "title": "Cypress"
     
   },
   {
-    "image": "826748.png",
+    "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687665/docker_cb0fcg.png",
     "title": "Docker"
   },
   {
-    "image": "1_CIs7RBIX6M-jrI6JIPRg4w.png",
+    "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687261/jira_hwoy0e.png",
     "title": "Jira"
   },
   {
-    "image": "GitHub-Desktop-for-Mac-Hero.jpg",
+    "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687260/github_desktop_tfraug.jpg",
     "title": "GitHub Desktop"
   },
   {
-    "image": "OIP (1).webp",
+    "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687264/postman_mt7bcq.webp",
     "title": "Postman"
   }
 ]

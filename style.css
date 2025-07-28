@@ -1,4 +1,7 @@
 /******* GENERAL *******/
+body {
+  font-family: "Poppins", sans-serif;
+}
 /* spacing on all sections */
 #about,
 #skills,
@@ -19,9 +22,6 @@
 #contact {
   padding-bottom: 1rem;
 }
-body {
-  font-family: "Poppins", sans-serif;
-}
 
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
@@ -30,17 +30,35 @@ body {
 }
 .navbar .nav-link {
   color: white !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-size: 1.05rem;
 }
 .navbar .text-color {
   color: #9b637b !important;
 }
+
+/* Icône hamburger en rose-mauve */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23745261' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/* Bordure ET fond du bouton */
+.navbar-toggler {
+  border: 2px solid #745261 !important;
+  
+}
+
+
+
+
+
 /* hero background image */
 .bgimage {
   height: 100vh;
   max-height: 900px;
   background: url("https://res.cloudinary.com/dwt9fgeql/image/upload/v1753290414/hero_dlbbws.webp");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 .bgimage::after {
   z-index: 1;
@@ -117,9 +135,6 @@ ul li span {
   font-size: 1.1em;
 }
 /* skills */
-/* #skills{
-    border: 1px solid #9b637b;
-} */
 #skills .container {
   /* border: 1px solid red; */
   width: 100%;
@@ -155,14 +170,10 @@ ul li span {
 .card:hover .skillsIcon {
   color: #9b637b;
 }
-/* .skillsText:hover {
-  border: 1px solid #9b637b;
-} */
 
 /* Outils */
 #tools {
-   
-    margin-top: 6rem;
+  margin-top: 6rem;
   background: url("images/56534fe68f651e2c9f4f83ff71ed83fd.jpg");
   position: relative;
   background-repeat: no-repeat;
@@ -204,7 +215,7 @@ ul li span {
   gap: 20px;
   padding: 20px 0px;
   margin: 0;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   z-index: 2;
 }
@@ -230,7 +241,7 @@ ul li span {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position:top;
+  object-position: top;
   border-radius: 8px;
 }
 
@@ -249,7 +260,7 @@ ul li span {
 
 /* portfolio */
 #portfolio {
- margin-top: 2rem;
+  margin-top: 2rem;
   /* border: 1px solid #9b637b; */
   margin-bottom: 1rem;
 }
@@ -262,7 +273,10 @@ ul li span {
 
 .portfolio_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* responsive grid */
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* responsive grid */
   gap: 20px;
   margin-top: 20px;
 }
@@ -293,8 +307,8 @@ ul li span {
   align-items: center;
 }
 .card_btn {
-  background:  #9b637b;
-  border: 1px solid  #9b637b;
+  background: #9b637b;
+  border: 1px solid #9b637b;
   width: 5vw;
   height: 4vh;
   display: flex;
@@ -304,7 +318,7 @@ ul li span {
 }
 .card_btn a {
   text-decoration: none;
-  color:white;
+  color: white;
   font-size: 1rem;
 }
 #portfolio p {
@@ -324,56 +338,53 @@ ul li span {
   display: inline-block;
   cursor: pointer;
 }
-.arrow-with-dots i{
-  color: #9b637b; 
+.arrow-with-dots i {
+  color: #9b637b;
   font-size: 1.6rem;
 }
-.arrow-with-dots .dot{
+.arrow-with-dots .dot {
   display: inline-block;
-  width: 8px;       
-  height: 8px;      
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background-color: #bbb;  
-  margin: 0 4px;    
+  background-color: #bbb;
+  margin: 0 4px;
 }
 .dot.active {
   background-color: #333;
 }
-
-  
 
 /* contact */
 #contact {
   padding: 1rem 0;
 }
 #contact .container .row {
-  padding: 1rem;              
-  height: auto; 
-  padding: 0;              
+  padding: 1rem;
+  height: auto;
+  padding: 0;
   margin: 0;
-             
 }
-.contactColumn{
+.contactColumn {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:stretch;
+  align-items: stretch;
   text-align: center;
 }
 .contactColumn i {
-  font-size: 2.5rem;         
+  font-size: 2.5rem;
   color: #9b637b;
   margin-bottom: 0.5rem;
 }
-.contactColumn a{
+.contactColumn a {
   text-decoration: none;
   color: black;
 }
 .contactColumn a:hover {
-  color: black; 
+  color: black;
 }
 .contactColumn h4 {
-  font-size: 1.2rem;           
+  font-size: 1.2rem;
   margin: 0.3rem 0;
 }
 .contactColumn p {
@@ -381,4 +392,4 @@ ul li span {
   margin: 0;
 }
 
-/* footer */
+

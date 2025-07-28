@@ -1,41 +1,41 @@
 [
     {
-        "image": "html-css.jpg",
+        "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687262/html-css_hhpkek.jpg",
         "title": "HTML - CSS",
         "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
     },
 {
-  "image": ["Image 24-07-2025 à 15.07.jpg"],
+  "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687262/javascript_react_hjsj7z.jpg",
   "title": "javascript - React",
   "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires. Création d’applications React, création de composants et manipulation de leur état."
 },
     {
-    "image": "image.png",
+    "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687263/java_bzlplx.png",
     "title": "Java",
     "text": "Programmation orientée objet, développement d’applications backend, bonnes pratiques d’architecture logicielle"
   },
   {
-    "image": "nodejs.jpg",
+    "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687263/nodejs_skp40w.jpg",
     "title": "Node.js",
     "text": "Création d’API REST, gestion des routes avec Express.js, intégration de bases de données NoSQL comme MongoDB"
   },
   {
-    "image": "Image 24-07-2025 à 14.16.jpg",
+    "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687266/php_symfony_hdzjru.jpg",
     "title": "PHP - Symfony",
     "text": "Développement backend avec Symfony, création d’API REST, utilisation de Doctrine pour la gestion des données"
   },
     {
-        "image": "gestion-de-projet.png",
+        "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687259/gestion-de-projet_jhypqe.png",
         "title": "Gestion de projet",
         "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
     },
     {
-        "image": "optimisation-et-debug.png",
+        "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687263/optimisation-et-debug_otwxkx.png",
         "title": "Optimisation et debug",
         "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne"
     },
     {
-        "image": "test.png",
+        "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687266/test_r3fvpm.png",
         "title": "Test",
         "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
     }
