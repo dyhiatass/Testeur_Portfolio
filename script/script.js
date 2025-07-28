@@ -45,10 +45,10 @@ function createSkillsFromJSON() {
     .then((data) => {
       data.forEach((item, index) => {
         const card = document.createElement("div");
-        card.classList.add("col-lg-3", "mt-3");
+        card.classList.add("col-lg-3", "col-md-4", "col-sm-6", "mb-4");
         card.innerHTML = `
-                    <div class="card skillsText">
-                        <div class="card-body">
+                    <div class="card skillsText h-100">
+                        <div class="card-body d-flex flex-column">
                             <img src="${item.image}" />
                             <h5 class="card-title mt-3">${item.title}</h5>
                             <p class="card-text mt-3">${item.text}</p>

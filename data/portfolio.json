@@ -2,19 +2,31 @@
     {
         "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687272/projet1_image_dkpeqn.jpg",
         "title": "JSE Avocats",
-        "text": "Tests fonctionnels et exploratoires d’un site WordPress pour un cabinet d’avocats. Mise en place de l’environnement via Docker, exécution des cas de test depuis un cahier de recette Notion, identification et documentation des anomalies pour améliorer la qualité du site.",
-        "link": "#"
+        "text": "Mise en place de l’environnement de test Docker, exécution des tests fonctionnels et exploratoires à partir d’un cahier de recette, identification, documentation et suivi des anomalies pour améliorer la qualité du site WordPress.",
+        "link": "https://github.com/OpenClassrooms-Student-Center/JSE-Avocats-V2.git"
     },
     {
         "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687275/projet2_image_vpgfjj.jpg",
         "title": "724events",
-        "text": "Campagne de tests complète sur un site événementiel. Réalisation de tests fonctionnels à partir d’un cahier de recette, tests exploratoires, rédaction et gestion des tickets sur Jira. Mise en place d'une étude d'automatisation, création de tests automatisés, génération d’un rapport de campagne.",
-        "link": "#"
+        "text": "Réalisation complète des tests fonctionnels et exploratoires basés sur un cahier de recette, gestion et rédaction des tickets sur Jira, étude et mise en place de tests automatisés, avec production d’un rapport détaillé de campagne.",
+        "link": "https://github.com/dyhiatass/724-events-testeur-logiciel.git"
     },
     {
         "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687276/projet3_image_hrq3rr.jpg",
         "title": "PayForge - TOMSEN",
-        "text": "Conception d’une stratégie de tests complète pour un site: revue des exigences, rédaction des cas de tests alignés aux sprints, définition des méthodes de test, planification des ressources et environnements. Élaboration des étapes clés de la stratégie et création d’un diagramme de Gantt basé sur les abaques.",
-        "link": "#"
+        "text": "Conception d’une stratégie de tests complète : analyse des exigences, rédaction des cas de tests alignés aux sprints, définition des méthodes, planification des ressources et création d’un diagramme de Gantt pour le suivi.",
+        "link": "https://www.figma.com/proto/syO91Dg60fSP9naGVKQ1KV/P11-Tomsen?page-id=0%3A1&type=design&node-id=1-43&viewport=599%2C405%2C0.16&t=S0RwxA03RGkOzhql-1&scaling=min-zoom&starting-point-node-id=1%3A43"
+    },
+    {
+        "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1738142211/ew85dlrvy4k4fhvbyy6d.jpg",
+        "title": "lolaparfums",
+        "text": "Développement complet du site vitrine et boutique en ligne, depuis le maquettage jusqu’au déploiement, en utilisant Symfony pour le backend, Twig pour les templates et JavaScript pour les interactions dynamiques.",
+        "link": "https://github.com/dyhiatass/lolaparfums.git"
+    },
+    {
+        "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1737565150/ow2oihcqhoeyrqtkljky.png",
+        "title": "Renova Architects",
+        "text": "Développement complet du site vitrine moderne, de la conception à la mise en ligne, avec une plateforme interactive pour présenter les services et réalisations, faciliter les demandes de devis et optimiser la gestion des projets et contacts.",
+        "link": "https://frontend-react-asuf.onrender.com/"
     }
 ]
