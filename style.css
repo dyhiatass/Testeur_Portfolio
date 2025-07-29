@@ -182,8 +182,10 @@ ul li span {
   color: #9b637b;
   font-size: 1.1em;
 }
-@media (max-width: 1220px) {
+@media (max-width: 1386px) {
+
   .col-lg-4 {
+     border: 1px solid #9b637b;
     width: 100%;
     height: auto;
     margin-bottom: 2rem;
@@ -220,7 +222,7 @@ ul li span {
     padding: 0;
     margin: 0;
     text-align: left;
-    /* border: 1px solid #9b637b; */
+   
   }
 
   ul li {
