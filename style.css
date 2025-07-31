@@ -29,7 +29,7 @@ body {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 .navbar .nav-link {
-  color: white !important;
+  color: #333C4A !important;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   font-size: 1.05rem;
 }
@@ -50,21 +50,22 @@ body {
 @media (max-width: 991.98px) {
   /* Fond du menu mobile */
   .navbar-collapse {
-    background-color: #fff !important; /* ou #f8f1f4 pour plus doux */
+    background-color: #fff !important; 
     padding: 1rem;
     border-radius: 0 0 10px 10px;
   }
 
   /* Couleur des liens du menu mobile */
   .navbar-nav .nav-link {
-    color: #745261 !important;
+    color: #2C3E50!important;
     padding: 0.5rem 1rem;
     text-align: center;
   }
 
+
   /* Hover mobile (peut aussi s'appliquer sur desktop) */
   .navbar-nav .nav-link:hover {
-    color: #5d3f4c !important;
+    color: #2C3E50 !important;
     background-color: #f1e6ea; /* effet de survol léger */
     border-radius: 8px;
   }
@@ -80,11 +81,12 @@ body {
   position: relative;
   height: 100vh;
   max-height: 900px;
-  background: url("https://res.cloudinary.com/dwt9fgeql/image/upload/v1753290414/hero_dlbbws.webp");
+  background: url("https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687263/hero_bvdcb4.webp");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }
-.bgimage::after {
+/* .bgimage::after {
   z-index: 1;
   content: "";
   position: absolute;
@@ -92,11 +94,11 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  /* background-color: rgba(255, 233, 198, 0.3); */
-}
+  background-color:rgba(255, 233, 198, 0.1);
+} */
 /* text css above hero image*/
 .hero_title {
+  color: #333C4A;
   font-size: 4.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
@@ -105,8 +107,11 @@ body {
   font-size: 2rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+.hero_title,
+.hero_desc,
 .hero_desc_span {
-  color: #d6bcce;
+  color: #2C3E50;
+  background-color: transparent;
 }
 .hero-text {
   z-index: 2;
@@ -120,7 +125,7 @@ body {
 }
 .navbar-brand {
   z-index: 2;
-  color: white;
+  color: #2C3E50 !important;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .nom-color {
@@ -339,7 +344,7 @@ ul li span {
 /* Outils */
 #tools {
   margin-top: 6rem;
-  background: url("https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687263/image_outils_x344vz.jpg");
+  background: url("https://res.cloudinary.com/dwt9fgeql/image/upload/v1753946091/image_outils_xiq75y.jpg");
   position: relative;
   background-repeat: no-repeat;
   display: flex;
@@ -350,7 +355,7 @@ ul li span {
   padding: 1rem 0rem;
   gap: 0rem;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   min-height: 300px;
 }
 
@@ -362,14 +367,15 @@ ul li span {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.2);
   /* background-color: rgba(255, 233, 198, 0.1); */
 }
 
 #tools h2 {
-  color: #d6bcce;
+  color: #2C3E50;
   font-size: 2rem;
   z-index: 2;
+  font-weight: bold;
   margin-bottom: 1rem;
 }
 
