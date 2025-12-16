@@ -2,45 +2,46 @@
   {
     "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1738142211/ew85dlrvy4k4fhvbyy6d.jpg",
     "title": "Lola Parfums",
-    "text": "Développement complet d’un site vitrine et e-commerce, de la conception au déploiement. Structuration du backend avec Symfony, création des templates Twig et implémentation des interactions dynamiques en JavaScript, avec une attention particulière à la cohérence fonctionnelle et à la logique métier.",
+    "text": "Développement complet d’un site vitrine et e-commerce, de la conception au déploiement. Mise en place du backend avec Symfony, création des templates Twig et intégration des interactions dynamiques en JavaScript, en veillant à la cohérence fonctionnelle et à la logique métier.",
     "link": "https://github.com/dyhiatass/lolaparfums.git"
   },
   {
     "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1737565150/ow2oihcqhoeyrqtkljky.png",
     "title": "Renova Architects",
-    "text": "Conception et développement d’un site vitrine moderne, incluant une plateforme interactive pour la gestion des devis, projets et contacts. Organisation logique des fonctionnalités afin d’optimiser les parcours utilisateurs et la gestion des données.",
+    "text": "Conception et développement d’un site vitrine moderne, de l’analyse des besoins à la mise en ligne. Intégration d’une plateforme interactive pour la gestion des devis, des projets et des contacts, avec une organisation logique des fonctionnalités et des données.",
     "link": "https://frontend-react-asuf.onrender.com/"
   },
   {
   "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1737565014/qutvfnhy6dwxje7ots43.jpg",
   "title": "Jeu de Snake",
-  "text": "Conception et développement d’un jeu de Snake basé sur la gestion des déplacements, des collisions, du score et de la boucle de jeu, avec une logique algorithmique structurée.",
+  "text": "Conception et développement d’un jeu de Snake en JavaScript, incluant la gestion des déplacements, des collisions, du score et de la boucle de jeu. Mise en œuvre d’une logique algorithmique claire et structurée pour assurer un fonctionnement fluide.",
   "link": "https://snake-jeu.onrender.com/"
+},
+{
+  "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1737565006/g2wpcyocyynhos97v7wf.jpg",
+  "title": "Jeu de Morpion",
+  "text": "Conception et développement d’un jeu de morpion en JavaScript, intégrant la logique de jeu, les conditions de victoire, la gestion des tours et les interactions utilisateur, avec une structure claire et cohérente.",
+  "link": "https://morpion-x6t0.onrender.com/"
 },
   {
     "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687272/projet1_image_dkpeqn.jpg",
     "title": "JSE Avocats",
-    "text": "Mise en place d’un environnement de test Docker et réalisation de tests fonctionnels et exploratoires à partir d’un cahier de recette. Analyse des comportements attendus, identification et suivi structuré des anomalies pour améliorer la qualité du site WordPress.",
+    "text": "Mise en place d’un environnement de test Docker et réalisation de tests fonctionnels et exploratoires à partir d’un cahier de recette. Analyse des comportements attendus, identification et suivi des anomalies afin d’améliorer la qualité globale du site WordPress.",
     "link": "https://github.com/OpenClassrooms-Student-Center/JSE-Avocats-V2.git"
   },
-  {
-  "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1737565006/g2wpcyocyynhos97v7wf.jpg",
-  "title": "Jeu de Morpion",
-  "text": "Conception et développement d’un jeu de morpion mettant en œuvre la logique de jeu, les conditions de victoire, la gestion des tours et les interactions utilisateur.",
-  "link": "https://morpion-x6t0.onrender.com/"
-},
+  
 
 
   {
     "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687275/projet2_image_vpgfjj.jpg",
     "title": "724events",
-    "text": "Réalisation de campagnes de tests fonctionnels et exploratoires basées sur un cahier de recette. Analyse des résultats, gestion des anomalies via Jira et étude de l’automatisation des tests, avec production d’un rapport détaillé et structuré.",
+    "text": "Réalisation de campagnes de tests fonctionnels et exploratoires à partir d’un cahier de recette, incluant l’analyse des résultats, la gestion des anomalies via Jira et l’étude de l’automatisation des tests.",
     "link": "https://github.com/dyhiatass/724-events-testeur-logiciel.git"
   },
   {
     "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687276/projet3_image_hrq3rr.jpg",
     "title": "PayForge – TOMSEN",
-    "text": "Conception d’une stratégie de tests complète : analyse des exigences, structuration des cas de tests selon les sprints, planification des ressources et suivi via un diagramme de Gantt, avec une approche analytique et méthodique.",
+    "text": "Conception d’une stratégie de tests complète, depuis l’analyse des exigences jusqu’à la structuration des cas de tests par sprint, avec planification des ressources et suivi via un diagramme de Gantt.",
     "link": "https://www.figma.com/proto/syO91Dg60fSP9naGVKQ1KV/P11-Tomsen?page-id=0%3A1&type=design&node-id=1-43&viewport=599%2C405%2C0.16&t=S0RwxA03RGkOzhql-1&scaling=min-zoom&starting-point-node-id=1%3A43"
   }
 ]
