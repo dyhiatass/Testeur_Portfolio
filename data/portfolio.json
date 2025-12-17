@@ -1,5 +1,26 @@
 [
   {
+    "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687272/projet1_image_dkpeqn.jpg",
+    "title": "JSE Avocats",
+    "text": "Mise en place d’un environnement de test Docker et réalisation de tests fonctionnels et exploratoires à partir d’un cahier de recette. Analyse des comportements attendus, identification et suivi des anomalies afin d’améliorer la qualité globale du site WordPress.",
+    "link": "https://github.com/OpenClassrooms-Student-Center/JSE-Avocats-V2.git"
+  },
+  
+
+
+  {
+    "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687275/projet2_image_vpgfjj.jpg",
+    "title": "724events",
+    "text": "Réalisation de campagnes de tests fonctionnels et exploratoires à partir d’un cahier de recette, incluant l’analyse des résultats, la gestion des anomalies via Jira et l’étude de l’automatisation des tests.",
+    "link": "https://github.com/dyhiatass/724-events-testeur-logiciel.git"
+  },
+  {
+    "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687276/projet3_image_hrq3rr.jpg",
+    "title": "PayForge – TOMSEN",
+    "text": "Conception d’une stratégie de tests complète, depuis l’analyse des exigences jusqu’à la structuration des cas de tests par sprint, avec planification des ressources et suivi via un diagramme de Gantt.",
+    "link": "https://www.figma.com/proto/syO91Dg60fSP9naGVKQ1KV/P11-Tomsen?page-id=0%3A1&type=design&node-id=1-43&viewport=599%2C405%2C0.16&t=S0RwxA03RGkOzhql-1&scaling=min-zoom&starting-point-node-id=1%3A43"
+  },
+    {
     "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1738142211/ew85dlrvy4k4fhvbyy6d.jpg",
     "title": "Lola Parfums",
     "text": "Développement complet d’un site vitrine et e-commerce, de la conception au déploiement. Mise en place du backend avec Symfony, création des templates Twig et intégration des interactions dynamiques en JavaScript, en veillant à la cohérence fonctionnelle et à la logique métier.",
@@ -22,26 +43,5 @@
   "title": "Jeu de Morpion",
   "text": "Conception et développement d’un jeu de morpion en JavaScript, intégrant la logique de jeu, les conditions de victoire, la gestion des tours et les interactions utilisateur, avec une structure claire et cohérente.",
   "link": "https://morpion-x6t0.onrender.com/"
-},
-  {
-    "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687272/projet1_image_dkpeqn.jpg",
-    "title": "JSE Avocats",
-    "text": "Mise en place d’un environnement de test Docker et réalisation de tests fonctionnels et exploratoires à partir d’un cahier de recette. Analyse des comportements attendus, identification et suivi des anomalies afin d’améliorer la qualité globale du site WordPress.",
-    "link": "https://github.com/OpenClassrooms-Student-Center/JSE-Avocats-V2.git"
-  },
-  
-
-
-  {
-    "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687275/projet2_image_vpgfjj.jpg",
-    "title": "724events",
-    "text": "Réalisation de campagnes de tests fonctionnels et exploratoires à partir d’un cahier de recette, incluant l’analyse des résultats, la gestion des anomalies via Jira et l’étude de l’automatisation des tests.",
-    "link": "https://github.com/dyhiatass/724-events-testeur-logiciel.git"
-  },
-  {
-    "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687276/projet3_image_hrq3rr.jpg",
-    "title": "PayForge – TOMSEN",
-    "text": "Conception d’une stratégie de tests complète, depuis l’analyse des exigences jusqu’à la structuration des cas de tests par sprint, avec planification des ressources et suivi via un diagramme de Gantt.",
-    "link": "https://www.figma.com/proto/syO91Dg60fSP9naGVKQ1KV/P11-Tomsen?page-id=0%3A1&type=design&node-id=1-43&viewport=599%2C405%2C0.16&t=S0RwxA03RGkOzhql-1&scaling=min-zoom&starting-point-node-id=1%3A43"
-  }
+}
 ]
