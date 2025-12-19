@@ -2,46 +2,67 @@
   {
     "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687272/projet1_image_dkpeqn.jpg",
     "title": "JSE Avocats",
-    "text": "Mise en place d’un environnement de test Docker et réalisation de tests fonctionnels et exploratoires à partir d’un cahier de recette. Analyse des comportements attendus, identification et suivi des anomalies afin d’améliorer la qualité globale du site WordPress.",
+    "text": "Mise en place d'un environnement de test Docker et réalisation de tests fonctionnels et exploratoires à partir d'un cahier de recette. Analyse des comportements attendus, identification et suivi des anomalies via Jira afin d'améliorer la qualité globale du site WordPress et garantir sa fiabilité.",
     "link": "https://github.com/OpenClassrooms-Student-Center/JSE-Avocats-V2.git"
   },
-  
-
-
   {
     "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687275/projet2_image_vpgfjj.jpg",
     "title": "724events",
-    "text": "Réalisation de campagnes de tests fonctionnels et exploratoires à partir d’un cahier de recette, incluant l’analyse des résultats, la gestion des anomalies via Jira et l’étude de l’automatisation des tests.",
+    "text": "Réalisation de campagnes de tests fonctionnels et exploratoires à partir d'un cahier de recette, incluant l'analyse des résultats et la gestion des anomalies via Jira. Étude et mise en place de l'automatisation des tests pour optimiser les processus de validation et améliorer la couverture.",
     "link": "https://github.com/dyhiatass/724-events-testeur-logiciel.git"
   },
   {
     "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687276/projet3_image_hrq3rr.jpg",
     "title": "PayForge – TOMSEN",
-    "text": "Conception d’une stratégie de tests complète, depuis l’analyse des exigences jusqu’à la structuration des cas de tests par sprint, avec planification des ressources et suivi via un diagramme de Gantt.",
+    "text": "Conception d'une stratégie de tests complète, depuis l'analyse des exigences jusqu'à la structuration des cas de tests par sprint. Planification des ressources, organisation des campagnes de tests et suivi de l'avancement via un diagramme de Gantt pour assurer la qualité du produit.",
     "link": "https://www.figma.com/proto/syO91Dg60fSP9naGVKQ1KV/P11-Tomsen?page-id=0%3A1&type=design&node-id=1-43&viewport=599%2C405%2C0.16&t=S0RwxA03RGkOzhql-1&scaling=min-zoom&starting-point-node-id=1%3A43"
   },
-    {
+  {
     "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1738142211/ew85dlrvy4k4fhvbyy6d.jpg",
     "title": "Lola Parfums",
-    "text": "Développement complet d’un site vitrine et e-commerce, de la conception au déploiement. Mise en place du backend avec Symfony, création des templates Twig et intégration des interactions dynamiques en JavaScript, en veillant à la cohérence fonctionnelle et à la logique métier.",
+    "text": "Développement complet d'un site vitrine et e-commerce, de la conception au déploiement. Mise en place du backend avec Symfony et MySQL, création des templates Twig et intégration des interactions dynamiques en JavaScript. Organisation de la logique métier et des fonctionnalités e-commerce.",
     "link": "https://github.com/dyhiatass/lolaparfums.git"
   },
   {
     "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1737565150/ow2oihcqhoeyrqtkljky.png",
     "title": "Renova Architects",
-    "text": "Conception et développement d’un site vitrine moderne, de l’analyse des besoins à la mise en ligne. Intégration d’une plateforme interactive pour la gestion des devis, des projets et des contacts, avec une organisation logique des fonctionnalités et des données.",
+    "text": "Conception et développement d'un site vitrine moderne avec React et Node.js, de l'analyse des besoins à la mise en ligne. Intégration d'une plateforme interactive pour la gestion des devis, des projets et des contacts, avec une organisation logique des fonctionnalités et une gestion optimisée des données.",
     "link": "https://frontend-react-asuf.onrender.com/"
   },
   {
-  "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1737565014/qutvfnhy6dwxje7ots43.jpg",
-  "title": "Jeu de Snake",
-  "text": "Conception et développement d’un jeu de Snake en JavaScript, incluant la gestion des déplacements, des collisions, du score et de la boucle de jeu. Mise en œuvre d’une logique algorithmique claire et structurée pour assurer un fonctionnement fluide.",
-  "link": "https://snake-jeu.onrender.com/"
-},
-{
-  "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1737565006/g2wpcyocyynhos97v7wf.jpg",
-  "title": "Jeu de Morpion",
-  "text": "Conception et développement d’un jeu de morpion en JavaScript, intégrant la logique de jeu, les conditions de victoire, la gestion des tours et les interactions utilisateur, avec une structure claire et cohérente.",
-  "link": "https://morpion-x6t0.onrender.com/"
-}
+    "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1737565014/qutvfnhy6dwxje7ots43.jpg",
+    "title": "Jeu de Snake",
+    "text": "Conception et développement d'un jeu de Snake en JavaScript vanilla, incluant la gestion des déplacements, des collisions, du score et de la boucle de jeu. Mise en œuvre d'une logique algorithmique claire et structurée pour assurer un fonctionnement fluide et une expérience utilisateur optimale.",
+    "link": "https://snake-jeu.onrender.com/"
+  },
+  {
+    "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1737565006/g2wpcyocyynhos97v7wf.jpg",
+    "title": "Jeu de Morpion",
+    "text": "Conception et développement d'un jeu de morpion en JavaScript vanilla, intégrant la logique de jeu complète, les conditions de victoire et d'égalité, la gestion des tours alternés et les interactions utilisateur. Structure claire du code avec séparation des responsabilités pour faciliter la maintenance.",
+    "link": "https://morpion-x6t0.onrender.com/"
+  },
+  {
+    "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1737565146/fmcikdschazncuc2hy7m.png",
+    "title": "Site Vitrine Interactif",
+    "text": "Développement complet d'un site vitrine avec HTML5, CSS3 et JavaScript. Création d'une interface moderne et entièrement responsive avec des animations CSS avancées et des interactions dynamiques. Optimisation des performances et de l'expérience utilisateur sur tous les supports et navigateurs.",
+    "link": "https://65e1071120717640254268eb--grand-travesseiro-96a4cc.netlify.app/"
+  },
+  {
+    "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1737565055/bvbl8csezhwzgthxli5z.jpg",
+    "title": "One Page Portfolio",
+    "text": "Conception et développement d'un site one-page en HTML5, CSS3 et JavaScript. Mise en place d'une navigation fluide avec scroll animé, intégration d'animations au défilement et création d'une mise en page soignée et moderne pour une présentation professionnelle et engageante du portfolio.",
+    "link": "https://onepage-dyhia-tasseda.netlify.app/"
+  },
+  {
+    "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1737565001/bkgbdffl6hfbfa1o7nbw.jpg",
+    "title": "Clone Le Bon Coin",
+    "text": "Réplique d'une plateforme de petites annonces avec React et Node.js/Express. Développement du frontend React avec hooks et du backend REST API, gestion complète des annonces avec CRUD, système d'authentification JWT sécurisé et mise en place d'une architecture fullstack moderne et scalable.",
+    "link": "https://site-boncoin.onrender.com/"
+  },
+  {
+    "image":"https://res.cloudinary.com/dwt9fgeql/image/upload/v1737565028/d5qp1sbihbazfzgsjjvy.jpg",
+    "title": "TodoList Application",
+    "text": "Développement d'une application de gestion de tâches avec React et hooks modernes. Implémentation de la création, modification et suppression de tâches avec persistance des données, interface intuitive et responsive, et state management efficace pour une expérience utilisateur fluide.",
+    "link": "https://passing-thoughts.onrender.com/"
+  }
 ]
