@@ -19,5 +19,13 @@
   {
     "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1753687264/postman_mt7bcq.webp",
     "title": "Postman"
+  },  
+  {
+    "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1766579705/selenium-logo-png_seeklogo-456125_dm0kor.jpg",
+    "title": "Selenium"
+  },
+  {
+    "image": "https://res.cloudinary.com/dwt9fgeql/image/upload/v1766579705/playwright-logo-png_seeklogo-489584_hzfdrf.jpg",
+    "title": "Playwright"
   }
 ]
